@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="style/main.css" />
+	<script src="jquery-3.2.1.min.js"></script>
+	<script>
+		// window.oload = function () {
+
+		// }
+		$(Document).ready(function () {
+			$('.main-path .link-button-two').hover(
+			function(){ $('.main-path .link-button-one').removeClass('active'); 
+			            $(this).addClass('active')},
+        	function(){ $(this).removeClass('active');
+        	            $('.main-path .link-button-one').addClass('active')}
+			
+			);
+			$('.link-under-apple-logo-two').hover(
+			function(){ $('.buttons .link-under-apple-logo-one').removeClass('active'); 
+			            $(this).addClass('active')},
+        	function(){ $(this).removeClass('active');
+        	            $('.buttons .link-under-apple-logo-one').addClass('active')}
+			
+			);
+		});
+	</script>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+					<div class="header-logo">
+						<img class="logo" src="img/logo.png" alt="logo">
+					</div>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-10">
+					<ul class="list">
+						<li class="list-in-header"><a class="link-in-header" href="#">About</a></li>
+						<li class="list-in-header"><a class="link-in-header" href="#">Tour</a></li>
+						<li class="list-in-header"><a class="link-in-header" href="#">Pricing</a></li>
+						<li class="list-in-header"><a class="link-in-header" href="#">Blog</a></li>
+						<li class="list-in-header"><a class="link-in-header" href="#">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+					<div class="button">
+						<a class="link-button" href="#">Sing up</a>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</header>
+	<section class="main-path">
+	<div class="wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<h1 class="title">Start Your Imaginations</h1>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="keyboard-button">
+						<a class="keyboard-link" href="#">
+							<img class="keyboard" src="img/keyboard-image.png" alt="keyboard">
+							<img class="img-arrow" src="img/button.png" alt="button">
+						</a>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+					<div class="title-inf">
+						<h5 class="title-under-video">Ready to use</h5>
+						<p class="inf">Phoenix works perfect in all modern browsers (Chrome, Safari, Firefox etc).</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+					<div class="title-inf">
+						<h5 class="title-under-video">Clean design</h5>
+						<p class="inf">A combination of the unique layout and material design best practices is what the Phoenix loved for.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+					<div class="title-inf">
+						<h5 class="title-under-video">Bootstrap based</h5>
+						<p class="inf">Most popular 1170px grid and all the Bootstrap components are at your service.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+					<div class="title-inf">
+						<h5 class="title-under-video">Unique icons</h5>
+						<p class="inf">Phoenix is an SVG based instrument, meaning all icons  are sharp and look awesome everywhere.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper-path">
+		<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+						<div class="wrapper-wrapper-path">
+							<a href="#">
+							<img class="link-img" src="img/tree-lines.png" alt="tree-lines">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<div class="wraper-logo">
+							<img src="img/logo.png" alt="lodo">
+							<p class="text-logo">Phoenix</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<ul class="list">
+							<li class="link-in-button "><a class="link-button link-button-one active" href="#">sing up</a></li>
+							<li class="link-in-button" ><a class="link-button link-button-two" href="#">sing in</a></li>
+						</ul>
+					</div>
+				</div>
+		</div>	
+	</div>
+	</section>
+	<section class="path-with-road">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+					<div class="wrapper">
+						<img class="logo-in-path-with-road" src="img/logo-in-path-with-road.png" alt="logo">
+					</div>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+					<ul class="list">
+						<li class="list-in-menu"><a class="link-in-menu" href="#">About</a></li>
+						<li class="list-in-menu"><a class="link-in-menu" href="#">Tour</a></li>
+						<li class="list-in-menu"><a class="link-in-menu" href="#">Pricing</a></li>
+						<li class="list-in-menu"><a class="link-in-menu" href="#">Blog</a></li>
+						<li class="list-in-menu"><a class="link-in-menu" href="#">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+					<div class="list-network">
+						<a class="network" href="#">
+							<img class="logo-network" src="img/twitter.png" alt="twitter">
+						</a>
+						<a class="network" href="#">
+							<img class="logo-network" src="img/facebook.png" alt="facebook">
+						</a>
+						<a class="network" href="#">
+							<img class="logo-network" src="img/google.png" alt="google">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+					<img class="arr" src="img/arr-left.png" alt="arr">
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+					<h2 class="title">A brand new way to excite<br> your audience</h2>
+					<p class="inf-under-title">The choice is always yours. Don't let your pronouncements<br> totaly destroy your destiny rather let them<br> 
+build your well future up!</p>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+					<img class="arr1" src="img/arr-right.png" alt="arr">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="path-with-headphone">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-8" >
+				<div class="wrapper-content">
+					<h2 class="title-headphone">For the ones who value good design</h2>
+					<div class="under-title-headphone">
+						When we are connected to the source, we sure will not be afraid of any task set before all of us.
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<img class="icons" src="img/Music-icon.png" alt="Music-icon">
+							<h4 class="title-under-icons">Perfect sound</h4>
+							<p class="inf-under-icons">Men love women who are brave for it means they can go the way with him in his pursuit of his good dreams and intentions.</p>
+							<a class="link" href="#">Learn more</a>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<img class="icons" src="img/Design-icon.png" alt="Design-icon">
+							<h4 class="title-under-icons">Stunning design</h4>
+							<p class="inf-under-icons">Your greatness is revealed not by the very lights that shine upon you, but by the light that shines within you and only you.</p>
+							<a class="link" href="#">Learn more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"></div>
+		</div>
+	</div>	
+	</section>
+	<section class="path-with-phone">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
+					<div class="wrapper-content-path-with-phone">
+						<img src="img/logo-in-path-with-road.png" alt="logo">
+						<p class="text-logo">Phoenix</p>
+						<h2 class="title-path-with-phone">Make it easy</h2>
+						<p class="inf-under-title-path-with-phone">See locations and get easy access to messaging, check-in requests and more from your home screen.</p>
+
+						<div class="buttons">
+							<a class="link-under-apple-logo link-under-apple-logo-one active" href="#">download</a>
+						</div>
+						<div class="buttons">
+							<a class="link-under-apple-logo link-under-apple-logo-two" href="#">learn more</a>
+						</div>
+
+
+						<div class="path-with-button">
+							<div class="button">
+								<a class="button-new" href="#">New</a>
+								<p class="text">Get new revolution UI kit for your startup</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<div class="wrapper">
+					<ul class="list">
+						<li class="list-in-menu"><a class="link-in-menu" href="#">Home</a></li>
+						<li class="list-in-menu"><a class="link-in-menu" href="#">About</a></li>
+						<li class="list-in-menu"><a class="link-in-menu" href="#">Features</a></li>
+						<li class="list-in-menu"><a class="link-in-menu" href="#">Clients</a></li>
+						<li class="list-in-menu"><a class="link-in-menu" href="#">Contact</a></li>
+						<li class="list-in-menu">
+							<a class="link-in-menu" href="#"> 
+								<img src="img/menu-icon.png" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section >
+	<section class="stay-tuned">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<h2 class="title">Stay tuned</h2>
+				<p class="inf-under-title">Discover classic and brand new styles in a variety of
+shapes, colours and materials, from signature Frame
+to the latest teardrop inspired watches.</p>
+				<div class=" email-button">
+					<input class="text" type="email" value="Your email">
+					<input class="button-text" type="submit" value="preorder">
+				</div>
+			</div>
+		</div>
+	</div>	
+	</section>
+	<section class="path-with-choose">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<h2 class="title">Choose license type</h2>
+					<p class="text">Everyone that enters through Him is always safe and the person shall find pastures for himself.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+					<div class="block">
+						<h4 class="title-over-price">Basic</h4>
+						<img class="img-price" src="img/price10.png" alt="price10">
+						<span class="price-per-month">per month</span>
+						<ul class="list">
+							<li class="text-per-button"> <img class="tick" src="img/tick.png" alt="tick">10 GB Disk Space</li>
+							<li class="text-per-button"> <img class="tick" src="img/tick.png" alt="tick">5 Sub Domains</li>
+							<li class="text-per-button"> <img class="tick" src="img/tick.png" alt="tick">12 Database</li>
+							<li class="text-per-button"> <img class="tick" src="img/tick.png" alt="tick">Unlimited Users</li>
+						</ul>
+						<div class="button">
+							<a class="button-under-list" href="#">Get started</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+					<div class="block">
+						<h4 class="title-over-price">Medium</h4>
+						<img class="img-price" src="img/price19.png" alt="price19">
+						<span class="price-per-month">per month</span>
+						<ul class="list">
+							<li class="text-per-button"> <img class="tick" src="img/tick.png" alt="tick">10 GB Disk Space</li>
+							<li class="text-per-button"> <img class="tick" src="img/tick.png" alt="tick">5 Sub Domains</li>
+							<li class="text-per-button"> <img class="tick" src="img/tick.png" alt="tick">12 Database</li>
+							<li class="text-per-button"> <img class="tick" src="img/tick.png" alt="tick">Unlimited Users</li>
+						</ul>
+						<div class="button">
+							<a class="button-under-list" href="#">Try now</a>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+					<div class="block">
+						<h4 class="title-over-price">Interprise</h4>
+						<img class="img-price" src="img/price39.png" alt="price39">
+						<span class="price-per-month">per month</span>
+						<ul class="list">
+							<li class="text-per-button"> <img class="tick" src="img/tick.png" alt="tick">10 GB Disk Space</li>
+							<li class="text-per-button"> <img class="tick" src="img/tick.png" alt="tick">5 Sub Domains</li>
+							<li class="text-per-button"> <img class="tick" src="img/tick.png" alt="tick">12 Database</li>
+							<li class="text-per-button"> <img class="tick" src="img/tick.png" alt="tick">Unlimited Users</li>
+						</ul>
+						<div class="button">
+							<a class="button-under-list" href="#">Get started</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-3">
+					<div class="wrapper">
+						<img src="img/logo-in-path-with-road.png" alt="lodo">
+						<p class="text-logo">Phoenix</p>	
+					</div>
+					<p class="text">Our promise to you is responsive communi-cation and transparency. When you call or e-mail us, we respond right away and explain all clearly.</p>
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+				<div class="block">
+					<ul class="list">
+						<li class="list-link"><a class="link" href="#">About</a></li>
+						<li class="list-link"><a class="link" href="#">Services</a></li>
+						<li class="list-link"><a class="link" href="#">Team</a></li>
+					</ul>
+					<ul class="list">
+						<li class="list-link"><a class="link" href="#">Explore</a></li>
+						<li class="list-link"><a class="link" href="#">Tour</a></li>
+						<li class="list-link"><a class="link" href="#">Pricing</a></li>
+					</ul>	
+					<ul class="list">
+						<li class="list-link"><a class="link" href="#">Support</a></li>
+						<li class="list-link"><a class="link" href="#">Contact Us</a></li>
+					</ul>
+				</div>
+					
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-9">
+					<div class="follow-us">
+						<h5 class="title">Follow us:</h5>
+						<a class="logo-network" href="#"><img class="logo" src="img/Twitter-Icon.png" alt="twitter"></a>
+						<a class="logo-network" href="#"><img class="logo" src="img/Facebook-Icon.png" alt="facebook"></a>
+						<a class="logo-network" href="#"><img class="logo" src="img/Google-Icon.png" alt="google"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper-footer"></div>
+		<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<h4 class="footer-text">© UI-market.com, 2016</h4>
+					</div>
+				</div>
+			</div>
+	</footer>
+</body>
+</html>

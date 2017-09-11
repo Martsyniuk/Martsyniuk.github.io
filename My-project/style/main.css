@@ -1,0 +1,980 @@
+@import url(bootstrap/css/bootstrap.css);
+.header {
+  background: #e7e7e7;
+  font-weight: bold;
+  font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  .header .header-logo {
+    padding-left: 52px;
+    margin-top: 32px; }
+  .header .list {
+    list-style: none;
+    margin-top: 36px;
+    text-align: center;
+    padding: 0;
+    font-weight: bold; }
+  .header .list-in-header {
+    display: inline;
+    text-transform: uppercase; }
+  .header .link-in-header {
+    color: #000;
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 20px; }
+  .header .button {
+    text-align: center;
+    margin-top: 17px; }
+  .header .link-button {
+    padding: 17px 45px 17px 45px;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 30px;
+    display: block;
+    color: #000;
+    text-transform: uppercase; }
+
+.main-path {
+  /*.link-button:hover {
+  	
+  }*/ }
+  .main-path .wrapper {
+    padding-top: 65px;
+    background-color: #e7e7e7;
+    text-align: center; }
+  .main-path .title {
+    font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    margin: 0; }
+  .main-path .keyboard-button {
+    position: relative; }
+  .main-path .keyboard {
+    display: block;
+    margin: 85px auto; }
+  .main-path .img-arrow {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -57px;
+    margin-top: -57px; }
+  .main-path .title-inf {
+    text-align: left;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    padding-left: 52px; }
+  .main-path .title-under-video {
+    text-transform: uppercase;
+    font-weight: bold; }
+  .main-path .inf {
+    margin-top: 20px;
+    margin-bottom: 70px; }
+  .main-path .wrapper-path {
+    background-color: #fff;
+    /*text-align: center;*/ }
+  .main-path .wrapper-wrapper-path {
+    margin-left: 52px; }
+  .main-path .link-img {
+    margin: 28px 0 28px 0; }
+  .main-path .wraper-logo {
+    padding-left: 142px;
+    margin-top: 22px;
+    text-align: center; }
+  .main-path .text-logo {
+    display: inline;
+    font-weight: bold; }
+  .main-path .list {
+    text-align: right;
+    margin: 0;
+    margin-top: 25px;
+    padding: 0; }
+  .main-path .link-in-button {
+    text-decoration: none;
+    display: inline; }
+  .main-path .link-button {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    padding: 10px 35px 10px 35px;
+    border-radius: 30px; }
+  .main-path .active {
+    background-color: #1b8bf9;
+    color: #fff;
+    text-decoration: none;
+    background-color: #1b8bf9;
+    color: #fff; }
+
+.path-with-road {
+  background-image: url(../img/backgrount.png);
+  height: 1065px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .path-with-road .wrapper {
+    padding-left: 48px; }
+  .path-with-road .logo-in-path-with-road {
+    margin: 37px 0 0 0; }
+  .path-with-road .list {
+    list-style: none;
+    margin-top: 35px;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 0;
+    font-weight: bold; }
+  .path-with-road .list-in-menu {
+    display: inline;
+    text-transform: uppercase; }
+  .path-with-road .link-in-menu {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 11px; }
+  .path-with-road .list-network {
+    margin-top: 35px;
+    text-align: right; }
+  .path-with-road .logo-network {
+    margin-left: 18px;
+    text-align: center; }
+  .path-with-road .arr {
+    margin-top: 280px;
+    margin-left: 52px; }
+  .path-with-road .title {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px; }
+  .path-with-road .inf-under-title {
+    margin-top: 60px;
+    color: #b2b4b8;
+    text-align: center;
+    font-size: 17px; }
+  .path-with-road .arr1 {
+    margin-top: 280px;
+    margin-left: 83px; }
+
+.path-with-headphone {
+  background-image: url(../img/fon.jpeg);
+  height: 1071px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  .path-with-headphone .wrapper-content {
+    padding-left: 52px; }
+  .path-with-headphone .title-headphone {
+    font-size: 44px;
+    margin: 0;
+    padding-top: 105px;
+    padding-bottom: 45px;
+    padding-right: 72px;
+    font-weight: bold; }
+  .path-with-headphone .under-title-headphone {
+    color: #8d8c8c;
+    padding-right: 135px;
+    padding-bottom: 100px; }
+  .path-with-headphone .icons {
+    padding-bottom: 30px; }
+  .path-with-headphone .title-under-icons {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 20px 0; }
+  .path-with-headphone .inf-under-icons {
+    color: #8d8c8c;
+    font-size: 13px;
+    padding: 0;
+    margin-bottom: 30px; }
+  .path-with-headphone .link {
+    color: #3794f9;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid #8d8c8c;
+    line-height: 5px;
+    padding-bottom: 3px; }
+
+.path-with-phone {
+  background-image: url(../img/fon-with-phone.jpeg);
+  height: 942px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .path-with-phone .wrapper-content-path-with-phone {
+    padding-left: 52px;
+    padding-top: 55px; }
+  .path-with-phone .text-logo {
+    display: inline;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 5px; }
+  .path-with-phone .title-path-with-phone {
+    color: #fff;
+    font-size: 70px;
+    font-weight: bolder;
+    margin-top: 135px;
+    margin-bottom: 45px;
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  .path-with-phone .inf-under-title-path-with-phone {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+    padding-right: 126px;
+    margin-bottom: 85px;
+    font-family: Playfair Display, Helvetica, Arial, sans-serif; }
+  .path-with-phone .buttons {
+    display: inline;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    width: 155px; }
+  .path-with-phone .buttons .active {
+    border-radius: 30px;
+    border: 1px solid #fff;
+    background-image: url(../img/apple-logo.png);
+    background-position: 20px 8px;
+    background-repeat: no-repeat;
+    padding-top: 13px;
+    padding-bottom: 13px; }
+  .path-with-phone .link-under-apple-logo {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 19px 29px 17px 54px; }
+  .path-with-phone .button {
+    margin-top: 364px; }
+  .path-with-phone .button-new {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 9px;
+    background-color: #1b8bf9;
+    color: #fff;
+    border-radius: 30px;
+    padding: 7px 20px 7px 20px; }
+  .path-with-phone .text {
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 15px;
+    display: inline;
+    font-size: 13px; }
+  .path-with-phone .wrapper {
+    padding-top: 55px;
+    text-align: right; }
+  .path-with-phone .list {
+    list-style: none;
+    margin-top: 36px;
+    text-align: center;
+    font-weight: bold;
+    display: inline;
+    -webkit-padding-start: 0; }
+  .path-with-phone .list-in-menu {
+    display: inline;
+    text-transform: uppercase; }
+  .path-with-phone .link-in-menu {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 12px; }
+  .path-with-phone .link-in-menu:hover {
+    border-bottom: 2px solid #fff; }
+
+.stay-tuned {
+  background-image: url(../img/backgraund-img.jpeg);
+  height: 567px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .stay-tuned .title {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding-top: 75px;
+    padding-bottom: 30px; }
+  .stay-tuned .inf-under-title {
+    margin: 0;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    padding-left: 405px;
+    padding-right: 423px;
+    padding-bottom: 55px; }
+  .stay-tuned .email-button {
+    text-align: center; }
+  .stay-tuned input {
+    border: none; }
+  .stay-tuned input[type="email"]:focus {
+    outline: none; }
+  .stay-tuned input[type="submit"]:focus {
+    outline: none; }
+  .stay-tuned .text {
+    font-size: 11px;
+    color: #fff;
+    line-height: 43px;
+    padding-left: 14px;
+    background-color: #a07972;
+    border-radius: 8px;
+    width: 343px;
+    padding-right: 21px; }
+  .stay-tuned .button-text {
+    font-size: 11px;
+    line-height: 43px;
+    padding-left: 42px;
+    padding-right: 42px;
+    border-radius: 32px;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    text-transform: uppercase;
+    margin-left: -24px; }
+
+.path-with-choose {
+  background-image: url(../img/background-choose.jpeg);
+  height: 800px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .path-with-choose .title {
+    font-size: 44px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding: 0; }
+  .path-with-choose .text {
+    color: #747474;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 70px;
+    padding-left: 370px;
+    padding-right: 359px; }
+  .path-with-choose .block {
+    text-align: center;
+    padding: 20px 0 60px 0; }
+  .path-with-choose .block:hover {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px 0 60px 0; }
+  .path-with-choose .title-over-price {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 13px; }
+  .path-with-choose .img-price {
+    margin: 0 auto 15px;
+    display: block; }
+  .path-with-choose .price-per-month {
+    text-align: center;
+    font-size: 12px; }
+  .path-with-choose .list {
+    margin-bottom: 70px;
+    margin-top: 40px;
+    line-height: 30px;
+    font-size: 14px; }
+  .path-with-choose .text-per-button {
+    text-decoration: none;
+    padding-right: 49px;
+    display: -webkit-inline-box; }
+  .path-with-choose .tick {
+    padding: 0 10px 0 0; }
+  .path-with-choose .button {
+    text-align: center;
+    margin: 0; }
+  .path-with-choose .button-under-list {
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 1px solid #ecedee;
+    background-color: #fff;
+    padding: 17px 45px 17px 45px; }
+  .path-with-choose .button-under-list:hover {
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 1px solid #1b8bf9;
+    background-color: #1b8bf9;
+    padding: 17px 45px 17px 45px; }
+
+.footer {
+  background-color: #242526;
+  color: #fff; }
+  .footer .wrapper {
+    padding-left: 52px;
+    padding-top: 40px;
+    padding-bottom: 3px; }
+  .footer .text-logo {
+    display: inline;
+    font-weight: bold;
+    padding-left: 5px;
+    font-size: 17px;
+    padding-bottom: 30px; }
+  .footer .text {
+    font-size: 11px;
+    padding-left: 52px;
+    padding-right: 67px;
+    padding-bottom: 35px;
+    /*border: 1px solid #36393b;*/
+    color: #d7d7d7;
+    margin: 0; }
+  .footer .block {
+    display: inline; }
+  .footer .list {
+    margin: 0;
+    padding-top: 36px;
+    padding-left: 0;
+    display: inline-block;
+    margin-right: 70px;
+    vertical-align: top; }
+  .footer .list-link {
+    display: block; }
+  .footer .link {
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    line-height: 30px; }
+  .footer .link:hover {
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    line-height: 30px;
+    text-decoration: none; }
+  .footer .follow-us {
+    padding-left: 60px; }
+  .footer .title {
+    margin: 0;
+    padding-top: 45px;
+    font-size: 13px; }
+  .footer .logo-network {
+    height: 36px;
+    width: 36px;
+    display: block;
+    border-radius: 50%;
+    margin-right: 5px;
+    float: left;
+    margin-top: 30px;
+    margin-right: 20px; }
+  .footer .logo {
+    margin: 0 20px 0 0; }
+  .footer .wrapper-footer {
+    border-bottom: 1px solid #36393b; }
+  .footer .footer-text {
+    font-size: 10px;
+    color: #737474;
+    margin: 0;
+    padding: 24px 0 24px 52px; }
+
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header .link-button {
+    padding: 17px 32px 17px 32px; }
+
+  .main-path .title {
+    font-size: 35px; }
+
+  .path-with-road {
+    height: 700px; }
+    .path-with-road .title {
+      font-size: 43px; }
+    .path-with-road .arr1 {
+      margin-left: 40px; }
+
+  .path-with-headphone .title-headphone {
+    font-size: 38px; }
+
+  .path-with-phone {
+    height: 700px; }
+    .path-with-phone .title-path-with-phone {
+      font-size: 59px; }
+    .path-with-phone .link-in-menu {
+      margin-right: 22px; }
+    .path-with-phone .button {
+      margin-top: 153px; }
+
+  .path-with-choose .title {
+    font-size: 42px; }
+  .path-with-choose .text {
+    padding-left: 267px;
+    padding-right: 267px; }
+
+  .stay-tuned .inf-under-title {
+    padding-left: 270px;
+    padding-right: 270px; }
+
+  .footer .follow-us {
+    padding-left: 29px; }
+  .footer .list {
+    margin-right: 64px; } }
+/* Small Devices, Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .header .link-button {
+    padding: 6px 15px 6px 15px; }
+  .header .button {
+    margin-top: 30px; }
+
+  .main-path .title-under-video {
+    font-size: 13px; }
+  .main-path .inf {
+    font-size: 12px; }
+  .main-path .link-button {
+    padding: 10px 16px 10px 16px;
+    font-size: 12px; }
+
+  .path-with-road {
+    height: 700px; }
+    .path-with-road .title {
+      font-size: 36px; }
+    .path-with-road .inf-under-title {
+      font-size: 14px; }
+    .path-with-road .arr1 {
+      margin-left: -8px; }
+
+  .path-with-headphone {
+    height: 650px; }
+    .path-with-headphone .title-headphone {
+      font-size: 24px;
+      padding-right: 0px; }
+    .path-with-headphone .under-title-headphone {
+      padding-right: 19px;
+      font-size: 13px; }
+
+  .path-with-phone .link-in-menu {
+    margin-right: 8px; }
+  .path-with-phone .title-path-with-phone {
+    font-size: 42px; }
+  .path-with-phone .inf-under-title-path-with-phone {
+    font-size: 15px;
+    padding-right: 49px; }
+  .path-with-phone .link-under-apple-logo {
+    padding: 19px 10px 17px 30px;
+    background-position: 20px 8px; }
+  .path-with-phone .buttons:hover {
+    background-position: 20px 8px; }
+  .path-with-phone .buttons .active {
+    background-position: 11px 8px; }
+  .path-with-phone .button {
+    margin-top: 410px; }
+  .path-with-phone .text {
+    padding-left: 10px;
+    font-size: 11px; }
+
+  .stay-tuned .inf-under-title {
+    padding-left: 150px;
+    padding-right: 150px; }
+
+  .path-with-choose .text {
+    padding-left: 150px;
+    padding-right: 150px; }
+  .path-with-choose .text-per-button {
+    padding-right: 41px; }
+
+  .footer .follow-us {
+    padding-left: 0px; }
+  .footer .logo-network {
+    margin-right: 15px; }
+  .footer .text {
+    padding-right: 14px;
+    padding-top: 20px; }
+  .footer .list {
+    margin-right: 35px; } }
+/* Extra Small Devices, Phones */
+@media (min-width: 480px) and (max-width: 767px) {
+  .header .header-logo {
+    padding-left: 29px; }
+  .header .link-in-header {
+    font-size: 11px;
+    margin-right: 6px; }
+  .header .button {
+    display: none; }
+
+  .main-path .wrapper {
+    padding-top: 40px; }
+  .main-path .title {
+    font-size: 27px; }
+  .main-path .keyboard {
+    margin: 61px auto;
+    height: 173px; }
+  .main-path .img-arrow {
+    height: 83px;
+    top: 60%;
+    left: 54%; }
+  .main-path .inf {
+    margin-bottom: 24px;
+    font-size: 12px;
+    margin-top: 11px; }
+  .main-path .title-under-video {
+    margin: 0; }
+  .main-path .title-inf {
+    padding-left: 29px; }
+  .main-path .wrapper-wrapper-path {
+    margin-left: 32px; }
+  .main-path .wraper-logo {
+    padding-left: 52px; }
+  .main-path .link-button {
+    padding: 6px 8px 6px 8px;
+    border-radius: 15px;
+    font-size: 11px; }
+
+  .path-with-road {
+    height: 400px; }
+    .path-with-road .logo-in-path-with-road {
+      margin: 37px 0 0 0;
+      height: 16px; }
+    .path-with-road .wrapper {
+      padding-left: 29px; }
+    .path-with-road .link-in-menu {
+      margin-right: 11px; }
+    .path-with-road .logo-network {
+      margin-left: 0px; }
+    .path-with-road .title {
+      margin-top: 51px;
+      font-size: 32px; }
+    .path-with-road .inf-under-title {
+      margin-top: 50px;
+      font-size: 10px; }
+    .path-with-road .arr {
+      margin-top: 122px;
+      margin-left: 29px;
+      height: 31px; }
+    .path-with-road .arr1 {
+      margin-top: 122px;
+      margin-left: -8px;
+      height: 31px; }
+
+  .path-with-headphone {
+    height: 612px; }
+    .path-with-headphone .wrapper-content {
+      padding-left: 29px; }
+    .path-with-headphone .title-headphone {
+      font-size: 19px;
+      margin: 0;
+      padding-top: 67px;
+      padding-bottom: 36px;
+      padding-right: 20px; }
+    .path-with-headphone .under-title-headphone {
+      padding-right: 0;
+      padding-bottom: 57px;
+      font-size: 12px; }
+    .path-with-headphone .icons {
+      padding-bottom: 15px;
+      height: 60px;
+      padding-top: 10px; }
+    .path-with-headphone .inf-under-icons {
+      margin-bottom: 0; }
+    .path-with-headphone .title-under-icons {
+      font-size: 10px;
+      margin-bottom: 6px; }
+
+  .path-with-phone {
+    height: 365px; }
+    .path-with-phone .wrapper-content-path-with-phone {
+      padding-left: 29px;
+      padding-top: 25px; }
+    .path-with-phone .wrapper {
+      display: none; }
+    .path-with-phone .title-path-with-phone {
+      font-size: 35px;
+      margin-top: 53px;
+      margin-bottom: 20px; }
+    .path-with-phone .inf-under-title-path-with-phone {
+      padding-right: 61px;
+      margin-bottom: 37px;
+      font-size: 12px; }
+    .path-with-phone .buttons {
+      display: none; }
+    .path-with-phone .button-new {
+      border-radius: 8px;
+      padding: 3px 9px 3px 9px;
+      font-size: 8px; }
+    .path-with-phone .button {
+      margin-top: 123px; }
+    .path-with-phone .text {
+      padding-left: 10px;
+      font-size: 9px; }
+
+  .stay-tuned {
+    height: 250px; }
+    .stay-tuned .inf-under-title {
+      font-size: 11px;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-bottom: 21px; }
+    .stay-tuned .title {
+      font-size: 28px;
+      padding-top: 37px;
+      padding-bottom: 17px; }
+    .stay-tuned .email-button {
+      width: 80%;
+      margin: 0 auto; }
+    .stay-tuned .text {
+      line-height: 27px;
+      font-size: 8px;
+      width: 70%; }
+    .stay-tuned .button-text {
+      font-size: 8px;
+      line-height: 27px;
+      padding-left: 21px;
+      padding-right: 17px; }
+
+  .path-with-choose {
+    height: 865px; }
+    .path-with-choose .title {
+      font-size: 28px;
+      margin-top: 52px;
+      margin-bottom: 19px; }
+    .path-with-choose .text {
+      font-size: 12px;
+      margin-bottom: 22px;
+      padding-left: 100px;
+      padding-right: 100px; }
+    .path-with-choose .title-over-price {
+      margin-bottom: 12px;
+      font-size: 11px; }
+    .path-with-choose .img-price {
+      height: 25px; }
+    .path-with-choose .list {
+      margin-bottom: 30px;
+      margin-top: 10px;
+      line-height: 22px;
+      font-size: 12px;
+      -webkit-padding-start: 0px; }
+    .path-with-choose .button-under-list {
+      padding: 15px 20px 15px 20px;
+      font-size: 8px; }
+    .path-with-choose .button-under-list:hover {
+      padding: 15px 20px 15px 20px;
+      font-size: 8px; }
+    .path-with-choose .text-per-button {
+      padding-right: 24px;
+      display: block; }
+    .path-with-choose .block {
+      width: 200px;
+      margin: 0 auto; }
+
+  .footer .text-logo {
+    display: none; }
+  .footer .text {
+    display: none; }
+  .footer .list {
+    display: none; }
+  .footer .follow-us {
+    padding-left: 145px; }
+  .footer .logo {
+    margin-top: -14px; } }
+/* Custom, iPhone Retina */
+@media (min-width: 320px) and (max-width: 479px) {
+  .header .header-logo {
+    padding-left: 15px;
+    margin-top: 18px; }
+  .header .logo {
+    height: 15px; }
+  .header .list {
+    margin-top: 18px;
+    text-align: left; }
+  .header .link-in-header {
+    font-size: 8px;
+    margin-right: 4px; }
+  .header .button {
+    display: none; }
+
+  .main-path .wrapper {
+    padding-top: 5px; }
+  .main-path .title {
+    font-size: 15px; }
+  .main-path .keyboard {
+    margin: 22px auto;
+    height: 100px; }
+  .main-path .img-arrow {
+    height: 37px;
+    top: 89%;
+    left: 63%; }
+  .main-path .inf {
+    margin-bottom: 11px;
+    font-size: 12px;
+    margin-top: 11px; }
+  .main-path .title-under-video {
+    margin: 0;
+    font-size: 10px;
+    text-align: center; }
+  .main-path .title-inf {
+    padding-left: 10px; }
+  .main-path .wrapper-wrapper-path {
+    margin-left: 10px; }
+  .main-path .link-img {
+    height: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  .main-path .wraper-logo {
+    display: none; }
+  .main-path .list {
+    margin-top: 5px; }
+  .main-path .link-button {
+    padding: 2px 8px 2px 8px;
+    border-radius: 15px;
+    font-size: 9px;
+    display: block;
+    text-align: center; }
+
+  .path-with-road {
+    height: 200px; }
+    .path-with-road .logo-in-path-with-road {
+      display: none; }
+    .path-with-road .wrapper {
+      padding-left: 0px; }
+    .path-with-road .list {
+      display: none; }
+    .path-with-road .list-network {
+      display: none; }
+    .path-with-road .logo-network {
+      margin-left: 0px; }
+    .path-with-road .title {
+      margin-top: 50px;
+      font-size: 12px; }
+    .path-with-road .inf-under-title {
+      margin-top: 30px;
+      font-size: 8px; }
+    .path-with-road .arr {
+      display: none; }
+    .path-with-road .arr1 {
+      display: none; }
+
+  .path-with-headphone {
+    height: 400px; }
+    .path-with-headphone .wrapper-content {
+      padding-left: 0; }
+    .path-with-headphone .title-headphone {
+      font-size: 12px;
+      margin: 0;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-right: 0; }
+    .path-with-headphone .under-title-headphone {
+      padding-right: 0;
+      padding-bottom: 15px;
+      font-size: 10px; }
+    .path-with-headphone .icons {
+      padding-bottom: 15px;
+      height: 50px;
+      padding-top: 10px; }
+    .path-with-headphone .inf-under-icons {
+      margin-bottom: 0;
+      font-size: 10px; }
+    .path-with-headphone .title-under-icons {
+      font-size: 8px;
+      margin-bottom: 6px; }
+    .path-with-headphone .link {
+      font-size: 8px; }
+
+  .path-with-phone {
+    height: 230px; }
+    .path-with-phone .wrapper-content-path-with-phone {
+      padding-left: 0px;
+      padding-top: 25px;
+      text-align: center; }
+    .path-with-phone .wrapper {
+      display: none; }
+    .path-with-phone .title-path-with-phone {
+      font-size: 14px;
+      margin-top: 15px;
+      margin-bottom: 15px; }
+    .path-with-phone .inf-under-title-path-with-phone {
+      padding-right: 0px;
+      margin-bottom: 37px;
+      font-size: 10px; }
+    .path-with-phone .buttons {
+      display: none; }
+    .path-with-phone .button {
+      display: none; }
+
+  .stay-tuned {
+    height: 250px; }
+    .stay-tuned .inf-under-title {
+      font-size: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+      text-align: center;
+      padding-bottom: 21px; }
+    .stay-tuned .title {
+      font-size: 14px;
+      padding-top: 37px;
+      padding-bottom: 17px; }
+    .stay-tuned .email-button {
+      width: 80%;
+      margin: 0 auto; }
+    .stay-tuned .text {
+      line-height: 27px;
+      font-size: 8px;
+      width: 70%; }
+    .stay-tuned .button-text {
+      font-size: 8px;
+      line-height: 27px;
+      padding-left: 21px;
+      padding-right: 17px; }
+
+  .path-with-choose {
+    height: 780px; }
+    .path-with-choose .title {
+      font-size: 14px;
+      margin-top: 30px;
+      margin-bottom: 15px; }
+    .path-with-choose .text {
+      font-size: 10px;
+      margin-bottom: 20px;
+      padding-left: 30px;
+      padding-right: 30px; }
+    .path-with-choose .title-over-price {
+      margin-bottom: 12px;
+      font-size: 11px; }
+    .path-with-choose .img-price {
+      height: 25px; }
+    .path-with-choose .list {
+      margin-bottom: 30px;
+      margin-top: 10px;
+      line-height: 22px;
+      font-size: 10px;
+      -webkit-padding-start: 0px; }
+    .path-with-choose .button-under-list {
+      padding: 15px 20px 15px 20px;
+      font-size: 8px; }
+    .path-with-choose .button-under-list:hover {
+      padding: 15px 20px 15px 20px;
+      font-size: 8px; }
+    .path-with-choose .text-per-button {
+      padding-right: 14px;
+      display: block; }
+    .path-with-choose .block {
+      width: 130px;
+      display: block; }
+
+  .footer .wrapper {
+    display: none; }
+  .footer .text-logo {
+    display: none; }
+  .footer .text {
+    display: none; }
+  .footer .list {
+    display: none; }
+  .footer .title {
+    padding-top: 15px; }
+  .footer .follow-us {
+    padding-left: 0px; }
+  .footer .logo {
+    margin-top: -14px; }
+  .footer .footer-text {
+    padding: 14px 0 14px 0px; } }
+
+/*# sourceMappingURL=main.css.map */

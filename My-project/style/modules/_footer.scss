@@ -1,0 +1,86 @@
+.footer {
+	background-color: #242526;
+	color: #fff;
+
+	.wrapper {
+		padding-left: 52px;
+    	padding-top: 40px;
+    	padding-bottom: 3px;
+
+	}
+	.text-logo {
+		display: inline;
+		font-weight: bold;
+		padding-left: 5px;
+		font-size: 17px;
+		padding-bottom: 30px;
+	} 
+	.text {
+		font-size: 11px;
+		padding-left: 52px;
+		padding-right: 67px;
+		padding-bottom: 35px;
+		/*border: 1px solid #36393b;*/
+		color: #d7d7d7;
+		margin: 0;
+	}
+	.block {
+		display: inline;
+	}
+	.list {
+		margin: 0;
+		padding-top: 36px;
+		padding-left: 0;
+		display: inline-block;
+    	margin-right: 70px;
+    	vertical-align: top;
+	}
+	.list-link {
+		display: block;
+	}
+	.link {
+		font-weight: bold;
+		font-size: 13px;
+		color: #fff;
+		line-height: 30px;
+	}
+	.link:hover {
+		font-weight: bold;
+		font-size: 13px;
+		color: #fff;
+		line-height: 30px;
+		text-decoration: none;
+	}
+	.follow-us {
+		padding-left: 60px;
+	}
+	.title {
+		margin: 0;
+    	padding-top: 45px;
+    	font-size: 13px;
+	}
+	.logo-network {
+		height: 36px;
+	    width: 36px;
+	    display: block;
+	    border-radius: 50%;
+	    margin-right: 5px;
+	    float: left;
+	    margin-top: 30px;
+	    margin-right: 20px;
+	}
+	.logo {
+		margin: 0 20px 0 0;
+	}
+	.wrapper-footer {
+		border-bottom: 1px solid #36393b;
+	}
+	.footer-text {
+		font-size: 10px;
+		color: #737474;
+		margin: 0; 
+		padding: 24px 0 24px 52px;
+		
+	}
+	
+}

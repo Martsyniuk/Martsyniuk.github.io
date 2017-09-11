@@ -1,0 +1,688 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}	
+/* Medium Devices, Desktops */
+@media (min-width : 992px) and (max-width : 1199px) {
+	.header {
+		.link-button {
+		 padding: 17px 32px 17px 32px;
+		}
+	}
+	.main-path {
+		.title {
+			font-size: 35px;
+		}
+	}
+	.path-with-road {
+		height: 700px;
+		.title {
+			font-size: 43px;
+		}
+		.arr1 {
+			margin-left: 40px;
+			} 
+	}   
+	.path-with-headphone {
+		.title-headphone {
+    		font-size: 38px;
+    	}
+    }
+	.path-with-phone {
+		height: 700px;
+  		.title-path-with-phone {
+    		font-size: 59px;
+    		}
+    	.link-in-menu{
+    		margin-right: 22px;	
+    	}
+    	.button {
+    		margin-top: 153px;
+    	}
+    }
+    .path-with-choose {
+    	.title {
+    		font-size: 42px;
+    	}
+    	.text {
+		    padding-left: 267px;
+    		padding-right: 267px;
+    	}
+    }
+	.stay-tuned {
+		.inf-under-title {
+    		padding-left: 270px;
+    		padding-right: 270px;
+    	}
+    }	
+    .footer {
+    	.follow-us {
+    		padding-left: 29px;
+		}	
+		.list {
+			margin-right: 64px;
+		}
+	}
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 768px) and (max-width : 991px) {
+	.header {
+		.link-button {
+    		padding: 6px 15px 6px 15px;
+		}
+		.button {
+			margin-top: 30px;
+		}
+	}
+	.main-path {
+		.title-under-video {
+			font-size: 13px;
+		}
+		.inf {
+			font-size: 12px;
+		}
+		.link-button {
+			padding: 10px 16px 10px 16px;
+			font-size: 12px;
+		}
+	}
+	.path-with-road {
+		height: 700px;
+		.title {
+    		font-size: 36px;
+    	}
+    	.inf-under-title {
+    		font-size: 14px;
+    	}
+    	.arr1 {
+    		margin-left: -8px;
+    	}
+    }
+    .path-with-headphone {
+    	height: 650px;
+    	.title-headphone {
+    		font-size: 24px;
+    		padding-right: 0px;
+    	}
+    	.under-title-headphone {
+    		padding-right: 19px;
+    		font-size: 13px;
+    	}
+    }
+    .path-with-phone {
+    	.link-in-menu {
+    		margin-right: 8px;
+		}
+		.title-path-with-phone {
+    		font-size: 42px;
+    	}
+    	.inf-under-title-path-with-phone {
+		    font-size: 15px;
+		    padding-right: 49px;
+		}
+		.link-under-apple-logo  {
+			padding: 19px 10px 17px 30px;
+			background-position: 20px 8px;
+		}
+		.buttons:hover {
+			background-position: 20px 8px;
+		}
+		.buttons .active {
+			background-position: 11px 8px;
+		}
+		.button {
+			margin-top: 410px;
+		}
+		.text {
+			padding-left: 10px;
+			font-size: 11px;
+		}
+    }
+    .stay-tuned {
+    	.inf-under-title {
+   			padding-left: 150px;
+    		padding-right: 150px;
+    	}
+    }
+    .path-with-choose {
+    	.text {
+		    padding-left: 150px;
+		    padding-right: 150px;
+		}
+		.text-per-button {
+			padding-right: 41px;
+		}
+	}
+	.footer {
+		.follow-us {
+    		padding-left: 0px;
+    	}
+    	.logo-network {
+    		margin-right: 15px;
+    	}
+		.text {
+			padding-right: 14px;
+			padding-top: 20px;
+		}
+		.list {
+			margin-right: 35px;
+		}
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media (min-width : 480px) and (max-width : 767px) {
+	.header {
+		.header-logo {
+			padding-left: 29px;
+		}
+		.link-in-header {
+    		font-size: 11px;
+    		margin-right: 6px;
+			}
+		.button {
+			display: none;
+		}
+	}
+	.main-path {
+		.wrapper {
+			padding-top: 40px;
+		}
+		.title {
+			font-size: 27px;
+		}
+		.keyboard {
+			margin: 61px auto;
+    		height: 173px;
+		}
+		.img-arrow {
+			height: 83px;
+			top: 60%;
+    		left: 54%;
+		}
+		.inf {
+			margin-bottom: 24px;
+			font-size: 12px;
+			margin-top: 11px;
+		}
+		.title-under-video {
+			margin: 0;
+		}
+		.title-inf {
+			padding-left: 29px;
+		}
+		.wrapper-wrapper-path {
+    		margin-left: 32px;
+    	}
+    	.wraper-logo {
+     		padding-left: 52px; 
+     	}
+     	.link-button {
+    		padding: 6px 8px 6px 8px;
+    		border-radius: 15px;
+    		font-size: 11px;
+    	}
+	}
+	.path-with-road {
+		height: 400px;
+		.logo-in-path-with-road {
+    		margin: 37px 0 0 0;
+    		height: 16px;
+    	}
+		.wrapper {
+    		padding-left: 29px;
+		}
+		.link-in-menu {
+			margin-right: 11px;
+		}
+		.logo-network {
+   			margin-left: 0px;
+   		}
+   		.title {
+		    margin-top: 51px;
+		    font-size: 32px;
+		}
+		.inf-under-title {
+		    margin-top: 50px;
+		    font-size: 10px;
+		}
+		.arr {
+		    margin-top: 122px;
+		    margin-left: 29px;
+		    height: 31px;
+		}
+		.arr1{
+		    margin-top: 122px;
+		    margin-left: -8px;
+		    height: 31px;
+		}
+	}
+	.path-with-headphone {
+		height: 612px;
+		.wrapper-content {
+			padding-left: 29px;
+		}
+		.title-headphone {
+		    font-size: 19px;
+		    margin: 0;
+		    padding-top: 67px;
+		    padding-bottom: 36px;
+		    padding-right: 20px;
+		}
+		.under-title-headphone {
+			padding-right: 0;
+			padding-bottom: 57px;
+			font-size: 12px;
+		}
+		.icons {
+		    padding-bottom: 15px;
+		    height: 60px;
+		    padding-top: 10px;
+		}
+		.inf-under-icons {
+    		margin-bottom: 0;
+    	}
+		.title-under-icons {
+    		font-size: 10px;
+    		margin-bottom: 6px;
+    	}
+    }
+    .path-with-phone {
+    	height: 365px;
+    	.wrapper-content-path-with-phone {
+		    padding-left: 29px;
+		    padding-top: 25px;
+		}
+		.wrapper {
+		    display: none;
+		}
+		.title-path-with-phone {
+		    font-size: 35px;
+		    margin-top: 53px;
+		    margin-bottom: 20px;
+		}
+		.inf-under-title-path-with-phone {
+			padding-right: 61px;
+    		margin-bottom: 37px;
+    		font-size: 12px;
+		}
+		.buttons {
+			display: none;
+		}
+		.button-new {
+			border-radius: 8px;
+    		padding: 3px 9px 3px 9px;
+    		font-size: 8px;
+		}
+		.button {
+			margin-top: 123px;
+		}
+		.text {
+			padding-left: 10px;
+			font-size: 9px;
+		}
+
+	}
+	.stay-tuned  {
+		height: 250px;
+		.inf-under-title {
+		    font-size: 11px;
+		    padding-left: 100px;
+		    padding-right: 100px;
+		    padding-bottom: 21px;
+		}
+		.title {
+		    font-size: 28px;
+		    padding-top: 37px;
+		    padding-bottom: 17px;
+		}
+		.email-button {
+			width: 80%;
+    		margin: 0 auto;
+		}
+		.text {
+			line-height: 27px;
+			font-size: 8px;
+			width: 70%;
+		}
+		.button-text {
+    		font-size: 8px;
+    		line-height: 27px;
+    		padding-left: 21px;
+    		padding-right: 17px;
+    	}
+	}
+	.path-with-choose {
+		height: 865px;
+		.title {
+    		font-size: 28px;
+    		margin-top: 52px;
+    		margin-bottom: 19px;
+    	}
+    	.text {
+    		font-size: 12px;
+    		margin-bottom: 22px;
+    		padding-left: 100px;
+    		padding-right: 100px;
+    	}
+    	.title-over-price {
+    		margin-bottom: 12px;
+    		font-size: 11px;
+    	}
+    	.img-price {
+    		height: 25px;
+    	}
+    	.list {
+    		margin-bottom: 30px;
+    		margin-top: 10px;
+    		line-height: 22px;
+    		font-size: 12px;
+    		-webkit-padding-start: 0px;
+    	}
+    	.button-under-list {
+    		padding: 15px 20px 15px 20px;
+    		font-size: 8px;
+    	}
+    	.button-under-list:hover {
+    		padding: 15px 20px 15px 20px;
+    		font-size: 8px;
+    	}
+    	.text-per-button {
+    		padding-right: 24px;
+    		display: block;
+    	}
+    	.block {
+    		width: 200px;
+    		margin: 0 auto;
+    	}
+    }
+    .footer {
+    	.text-logo {
+    		display: none;
+    	}
+    	.text {
+    		display: none;
+    	}
+    	.list {
+    		display: none;
+    	}
+    	.follow-us {
+    		padding-left: 145px;
+    	}
+    	.logo {
+    		margin-top: -14px;
+		}
+    }
+}
+
+/* Custom, iPhone Retina */
+@media (min-width : 320px) and (max-width : 479px) {
+	.header {
+		.header-logo {
+			padding-left: 15px;
+			margin-top: 18px;
+		}
+		.logo {
+			height: 15px;
+		}
+		.list {
+			margin-top: 18px;
+			text-align: left;
+		}
+		.link-in-header {
+    		font-size: 8px;
+    		margin-right: 4px;
+			}
+		.button {
+			display: none;
+		}
+		
+	}
+	.main-path {
+		.wrapper {
+			padding-top: 5px;
+		}
+		.title {
+			font-size: 15px;
+		}
+		.keyboard {
+			margin: 22px auto;
+    		height: 100px;
+		}
+		.img-arrow {
+			height: 37px;
+			top: 89%;
+    		left: 63%;
+		}
+		.inf {
+			margin-bottom: 11px;
+			font-size: 12px;
+			margin-top: 11px;
+		}
+		.title-under-video {
+			margin: 0;
+			font-size: 10px;
+			text-align: center;
+		}
+		.title-inf {
+			padding-left: 10px;
+			
+		}
+		.wrapper-wrapper-path {
+    		margin-left: 10px;
+    	}
+    	.link-img {
+    		height: 10px;
+    		margin-top: 15px;
+    		margin-bottom: 15px;
+    	}
+    	.wraper-logo {
+     		display: none;
+     	}
+     	.list {
+     		margin-top: 5px;
+     	}
+     	.link-button {
+    		padding: 2px 8px 2px 8px;
+    		border-radius: 15px;
+    		font-size: 9px;
+    		display: block;
+    		text-align: center;
+    	}
+	}
+	.path-with-road {
+		height: 200px;
+		.logo-in-path-with-road {
+    		display: none;
+    	}
+		.wrapper {
+    		padding-left: 0px;
+		}
+		.list {
+			display: none;
+		}
+		.list-network {
+			display: none;
+		}
+		.logo-network {
+   			margin-left: 0px;
+   		}
+   		.title {
+		    margin-top: 50px;
+		    font-size: 12px;
+		}
+		.inf-under-title {
+		    margin-top: 30px;
+		    font-size: 8px;
+		}
+		.arr {
+		    display: none;
+		}
+		.arr1{
+		    display: none;
+		}
+	}
+	.path-with-headphone {
+		height: 400px;
+		.wrapper-content {
+			padding-left: 0;
+		}
+		.title-headphone {
+		    font-size: 12px;
+		    margin: 0;
+		    padding-top: 15px;
+		    padding-bottom: 15px;
+		    padding-right: 0;
+		}
+		.under-title-headphone {
+			padding-right: 0;
+			padding-bottom: 15px;
+			font-size: 10px;
+		}
+		.icons {
+		    padding-bottom: 15px;
+		    height: 50px;
+		    padding-top: 10px;
+		}
+		.inf-under-icons {
+    		margin-bottom: 0;
+    		font-size: 10px;
+    	}
+		.title-under-icons {
+    		font-size: 8px;
+    		margin-bottom: 6px;
+    	}
+    	.link {
+    		font-size: 8px;
+    	}
+    }
+    .path-with-phone {
+    	height: 230px;
+    	.wrapper-content-path-with-phone {
+		    padding-left: 0px;
+		    padding-top: 25px;
+		    text-align: center;
+		}
+		.wrapper {
+		    display: none;
+		}
+		.title-path-with-phone {
+		    font-size: 14px;
+		    margin-top: 15px;
+		    margin-bottom: 15px;
+		}
+		.inf-under-title-path-with-phone {
+			padding-right: 0px;
+    		margin-bottom: 37px;
+    		font-size: 10px;
+		}
+		.buttons {
+			display: none;
+		}
+		.button {
+			display: none;
+		}
+	}
+	.stay-tuned  {
+		height: 250px;
+		.inf-under-title {
+		    font-size: 10px;
+		    padding-left: 30px;
+		    padding-right: 30px;
+		    text-align: center;
+		    padding-bottom: 21px;
+		}
+		.title {
+		    font-size: 14px;
+		    padding-top: 37px;
+		    padding-bottom: 17px;
+		}
+		.email-button {
+			width: 80%;
+    		margin: 0 auto;
+		}
+		.text {
+			line-height: 27px;
+			font-size: 8px;
+			width: 70%;
+		}
+		.button-text {
+    		font-size: 8px;
+    		line-height: 27px;
+    		padding-left: 21px;
+    		padding-right: 17px;
+    	}
+	}
+	.path-with-choose {
+		height: 780px;
+		.title {
+    		font-size: 14px;
+    		margin-top: 30px;
+    		margin-bottom: 15px;
+    	}
+    	.text {
+    		font-size: 10px;
+    		margin-bottom: 20px;
+    		padding-left: 30px;
+    		padding-right: 30px;
+    	}
+    	.title-over-price {
+    		margin-bottom: 12px;
+    		font-size: 11px;
+    	}
+    	.img-price {
+    		height: 25px;
+    	}
+    	.list {
+    		margin-bottom: 30px;
+    		margin-top: 10px;
+    		line-height: 22px;
+    		font-size: 10px;
+    		-webkit-padding-start: 0px;
+    	}
+    	.button-under-list {
+    		padding: 15px 20px 15px 20px;
+    		font-size: 8px;
+    	}
+    	.button-under-list:hover {
+    		padding: 15px 20px 15px 20px;
+    		font-size: 8px;
+    	}
+    	.text-per-button {
+    		padding-right: 14px;
+    		display: block;
+    	}
+    	.block {
+    		width: 130px;
+    		display: block;
+    	}
+    }
+    .footer {
+    	.wrapper {
+    		display: none;
+    	}
+    	.text-logo {
+    		display: none;
+    	}
+    	.text {
+    		display: none;
+    	}
+    	.list {
+    		display: none;
+    	}
+    	.title {
+    		padding-top: 15px;
+    	}
+    	.follow-us {
+    		padding-left: 0px;
+    	}
+    	.logo {
+    		margin-top: -14px;
+		}
+		.footer-text {
+    		padding: 14px 0 14px 0px;
+		}
+    }
+}
